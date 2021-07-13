@@ -100,7 +100,6 @@ html {
   /* 5 */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   scroll-behavior: smooth;
-  background-color: ${({ theme: { colors } }) => colors.body};
 }
 
 
@@ -116,7 +115,8 @@ body {
   /* 1 */
   line-height: 1;
   /* 2 */
-  font-family: ${({ theme: { fontFamily } }) => fontFamily.join(',')};
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   /* 3 */
   text-align: left;
 }

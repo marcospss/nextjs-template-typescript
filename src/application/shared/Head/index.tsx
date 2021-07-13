@@ -1,6 +1,6 @@
 import NextHead from 'next/head';
 
-export default function Head() {
+export default function Head(): JSX.Element {
   return (
     <NextHead>
       <title>Create Next App TypeScript</title>
